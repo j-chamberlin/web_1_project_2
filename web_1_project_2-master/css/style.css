@@ -38,11 +38,99 @@ a:visited {
 }
 
 section {
-	border: 1px solid red;
+	
 }
 
-#right {
-	
+.button {
+	background: url('../assets/textures/az_subtle.png');
+	padding: 10px 60px;
+	background-color: #b5b5ad;
+	background-blend-mode: multiply;
+}
+
+#viewMore {
+	text-decoration: none;
+	color: white;
+}
+
+#viewMoreSec {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+#gallery {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 15px;
+	justify-content: center;
+}
+
+#uniqueImage1 {
+	background: url("../assets/another_example.jpeg");
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#uniqueImage2 {
+	background: url("../assets/example2.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#uniqueImage3 {
+	background: url("../assets/example3.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#uniqueImage4 {
+	background: url("../assets/example4.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#uniqueImage5 {
+	background: url("../assets/example5.jpg");
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#uniqueImage6 {
+	background: url("../assets/example6.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#uniqueImage7 {
+	background: url("../assets/example7.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#uniqueImage8 {
+	background: url("../assets/example8.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-image {
+	width: 100%;
+	height: 14vh;
+}
+
+.images {
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .social-icon {

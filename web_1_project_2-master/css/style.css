@@ -37,8 +37,11 @@ a:visited {
 	margin-left: 20px;
 }
 
-section {
-	
+#middleLabel {
+	display: flex;
+	justify-content: center;
+	margin: 25px;
+	font-size: 130%;
 }
 
 .button {
